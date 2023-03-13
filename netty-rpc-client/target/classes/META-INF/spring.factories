@@ -1,0 +1,28 @@
+## Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.example.nettyrpc.client.autoconfig.MyApplicationContextInitializer
+
+## Application Listeners
+org.springframework.context.ApplicationListener=\
+com.example.nettyrpc.client.autoconfig.MyApplicationListener
+
+## Auto Configuration Import Listeners
+org.springframework.boot.autoconfigure.AutoConfigurationImportListener=\
+com.example.nettyrpc.client.autoconfig.MyAutoConfigurationImportListener
+
+## Auto Configuration Import Filters
+#org.springframework.boot.autoconfigure.AutoConfigurationImportFilter=\
+#com.example.nettyrpc.client.autoconfig.MyConfigurationCondition
+
+## Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.nettyrpc.client.autoconfig.MyConfiguration
+
+## Failure analyzers
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+com.example.nettyrpc.client.autoconfig.MyFailureAnalyzer
+
+## Template availability providers
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider=\
+com.example.nettyrpc.client.autoconfig.MyTemplateAvailabilityProvider
+
